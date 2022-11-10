@@ -1,0 +1,10 @@
+﻿生成启动时间为 2022-11-10 20:16:54。
+     1>项目“F:\005_GitHub Hosting Service\TestLibs\00_TEST\test001\test001\test001.vcxproj”在节点 2 上(Build 个目标)。
+     1>Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\005_GitHub Hosting Service\TestLibs\00_TEST\test001\Debug\test001.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\005_GitHub Hosting Service\TestLibs\00_TEST\test001\Debug\test001.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\005_GitHub Hosting Service\TestLibs\00_TEST\test001\Debug\test001.lib" /MACHINE:X86 Debug\test001.obj
+         test001.vcxproj -> F:\005_GitHub Hosting Service\TestLibs\00_TEST\test001\Debug\test001.exe
+     1>已完成生成项目“F:\005_GitHub Hosting Service\TestLibs\00_TEST\test001\test001\test001.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.60
