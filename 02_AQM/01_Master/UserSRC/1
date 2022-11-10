@@ -1,0 +1,37 @@
+/* 
+ * File:   
+ * Author: 
+ * Comments:
+ * Revision history: 
+ */
+
+// This is a guard condition so that contents of this file are not included
+// more than once.  
+#ifndef __SHT3X_H_
+#define	__SHT3X_H_
+
+
+#include "stm32f10x_conf.h"
+
+
+
+void SHT3x_Init(void);
+void SHT3x_Write_Byte(unsigned char CmdMSB,unsigned char CmdLSB);
+void SHT3x_Read_Byte(unsigned int *p);
+void SHT3x_Get_Value(void);
+
+
+
+
+int SHT3x_Get_Dat(void);
+uint8_t CRC8(const uint8_t *idata, int len);
+//int crc8_compute(unsigned char *check_data, unsigned char num_of_data);
+//int SHT3x_crc8_check(unsigned char *p,unsigned char num_of_data,unsigned char CrcData);
+
+unsigned char SHT3x_Calculate_Crc8(unsigned char *value) ;
+unsigned char SHT3x_Read_Temp_Humidity(float *RH_value, float *T_value);
+unsigned long Make_Word(unsigned char hb, unsigned char lb);
+
+
+#endif	/* XC_HEADER_TEMPLATE_H */
+
